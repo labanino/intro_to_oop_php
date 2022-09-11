@@ -14,4 +14,5 @@ class User {
 // Instantiate user object from "User Class"
 $user = new User();
 $user->name = "Alex";
+echo "<br>";
 echo $user->sayHello();
